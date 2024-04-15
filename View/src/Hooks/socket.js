@@ -7,6 +7,10 @@ export const initiateSocket = (user, cb) => {
             serverOffset: 0,
             isLogged: true,
             ...user,
+        },
+        withCredentials: true,
+        extraHeaders: {
+            "my-custom-header": "abcd"
         }
     })
     console.log('conectando socket')
