@@ -19,9 +19,7 @@ dotenv.config()
 
 const PORT = process.env.PORT ?? 5000
 app.disable('x-powered-by')
-app.use(cors({
-  origin: 'http://localhost:5173'
-}))
+app.use(cors())
 app.use(json())
 app.use('/api/user', userRouter)
 app.use('/api/players', PlayersRouter)

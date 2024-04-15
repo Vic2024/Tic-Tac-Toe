@@ -7,10 +7,10 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': 'https://tic-tac-toe-rpl1.onrender.com',
-      /* '/socket.io': {
+      '/socket.io': {
         target: 'https://tic-tac-toe-rpl1.onrender.com',
-        ws: true,
-      } */
+        ws: true
+      }
     }
   }
 })

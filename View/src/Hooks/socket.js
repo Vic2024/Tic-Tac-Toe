@@ -2,15 +2,11 @@ import io from 'socket.io-client'
 let socket
 
 export const initiateSocket = (user, cb) => {
-    socket = io('tic-tac-toe-rpl1.onrender.com', {
+    socket = io('/', {
         auth: {
             serverOffset: 0,
             isLogged: true,
             ...user,
-        },
-        withCredentials: true,
-        extraHeaders: {
-            "my-custom-header": "abcd"
         }
     })
     console.log('conectando socket')
