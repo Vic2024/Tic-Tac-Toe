@@ -3,7 +3,7 @@ const in18 = {
     en: ''
 }
 export const options = {
-    route: '/api/login',
+    route: 'https://tic-tac-toe-rpl1.onrender.com/api/login',
     inputs: ['username', 'password'],
     state: {
         error: {
