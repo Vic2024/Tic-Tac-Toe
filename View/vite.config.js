@@ -6,7 +6,11 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'https://tic-tac-toe-rpl1.onrender.com',
+      '/api': {
+        target: 'https://tic-tac-toe-rpl1.onrender.com',
+        changeOrigin: true,
+        rewrite: path => path.replace(/^\/api/, '')
+      },
       '/socket.io': {
         target: 'https://tic-tac-toe-rpl1.onrender.com',
         ws: true
