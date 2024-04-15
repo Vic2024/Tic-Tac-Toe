@@ -5,7 +5,7 @@
             "destination": "https://tic-tac-toe-rpl1.onrender.com/api/:path"
         },
         {
-            "source": "/socket.io/",
+            "source": "/socket.io",
             "destination": "https://tic-tac-toe-rpl1.onrender.com"
         },
         {
