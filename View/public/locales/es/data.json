@@ -1,0 +1,122 @@
+{
+    "index": {
+        "title": "❌ ÚNICO, DIVERTIDO Y NO PASA DE MODA ⚪"
+    },
+    "app": {
+        "resetGame": "Reiniciar Juego"
+    },
+    "winnerModal": {
+        "tie": "Empate :",
+        "won": "Gano :",
+        "startAgain": "Comenzar de nuevo",
+        "onlineOptions": {
+            "messageLoser": "😭 Espere que el rival tome una decisión... 😭 ",
+            "buttonFinishGame": "Finalizar juego ",
+            "buttonResetGame": "Reiniciar juego "
+        }
+    },
+    "login": {
+        "h1": "Acceso",
+        "input": {
+            "labelUsername": "Nombre de usuario",
+            "labelPassword": "Contraseña",
+            "helpMessage": "Este campo debe tener al menos 5 caracteres"
+        },
+        "createAccount": "¿ No tienes una cuenta ?",
+        "buttonLogin": "Iniciar sesión",
+        "recoverPassword": "¿ Olvidaste tu contraseña ?"
+    },
+    "record": {
+        "h1": "Registro de usuario",
+        "input": {
+            "helpMessage": "Este campo debe tener al menos 5 caracteres",
+            "labelName": "Nombre",
+            "labelLastName": "Apellido",
+            "labelUsername": "Nombre de usuario",
+            "labelPassword": "Contraseña",
+            "labelEmail": "Dirección de email"
+        },
+        "buttonCreateAccount": "Crear usuario"
+    },
+    "resetPassword": {
+        "h1": "Restablecer contraseña",
+        "input": {
+            "labelEmail": "Dirección de email",
+            "helpMessage": "Este campo debe tener al menos 5 caracteres"
+        },
+        "buttonResetPassword": "Restaurar contraseña"
+    },
+    "changePassword": {
+        "h1": "Restaurar contraseña",
+        "input": {
+            "labelPassword": "Contraseña",
+            "labelConfirmPassword": "Confirmar contraseña",
+            "helpMessage": "Este campo debe tener al menos 5 caracteres"
+        },
+        "buttonResetPassword": "Cambiar contraseña"
+    },
+    "dashBoard": {
+        "aside": {
+            "searchGame": "Buscar partida",
+            "profile": "Perfil",
+            "register": "Registro de juegos",
+            "request": "Solicitudes",
+            "logout": "Cerrar sesion"
+        }
+    },
+    "searchGame": {
+        "h1": "Busca con quien jugar",
+        "input": {
+            "labelSearchGame": "Buscar Partida",
+            "helpMessageSearchGame": "Ingrese nombre de usuario para buscar al jugador"
+        }
+    },
+    "editProfile": {
+        "h1": "Editar Perfil",
+        "input": {
+            "labelName": "Nombre",
+            "labelLastName": "Apellido",
+            "labelUsername": "Nombre de usuario",
+            "labelEmail": "Direcion de email",
+            "labelConfirmPassword": "Confirmar contraseña",
+            "helpMessage": "Este campo debe tener al menos 5 caracteres"
+        },
+        "buttonEditProfile": "Editar Perfil",
+        "buttonDeleteProfile": "Eliminar Perfil"
+    },
+    "gameLog": {
+        "h1": "Registro de juegos",
+        "card": {
+            "title": "Partida con {{username}}",
+            "name": "Nombre:",
+            "lastname": "Apellido:",
+            "characterRival": "Personaje del rival:",
+            "requestRival": "Solicitud de juego con el rival:",
+            "stateOfGame": "Estado de juego:",
+            "turn": "Turno del jugador:",
+            "waitingAnswer": "Esperando respuesta...",
+            "buttonPlay": "Jugar"
+        }
+    },
+    "request": {
+        "h1": "Solicitudes",
+        "note": "Nota: una vez aceptada la solicitud, ve al Registro del juego",
+        "card": {
+            "title": "{{user_from}} te ha invitado a jugar",
+            "character": "Personaje: {{character}}",
+            "stateOfRequest": "Estado: {{request}}"
+        },
+        "buttonAceppt": "Aceptar",
+        "buttonReject": "Rechazar"
+    },
+    "game": {
+        "buttonReturnDashboard": "Regresar al DashBoard",
+        "currentPlayer": "Tu personaje es:"
+    },
+    "userNotFoundOnline": "😭 No se encontraron usuarios conectados 😭",
+    "userNotFoundOffline": "😭 No se encuentran Jugadores Desconectados 😭",
+    "gameNotFound": "😭 No se encuentran juegos registrados 😭",
+    "requestNotFound": "😭 No se encuentran juegos solicitudes 😭",
+    "loader": "Cargando...",
+    "footer": "🔒 © Copyright por Victor Bermudez 2024 🔒"
+}

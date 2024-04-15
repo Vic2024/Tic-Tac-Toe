@@ -1,0 +1,122 @@
+{
+    "index": {
+        "title": "❌ UNIQUE, FUN AND DOESN'T GO OUT OF STYLE ⚪"
+    },
+    "app": {
+        "resetGame": "Restart Game"
+    },
+    "winnerModal": {
+        "tie": "Tie :",
+        "won": "Won :",
+        "startAgain": "Start again",
+        "onlineOptions":{
+            "messageLoser":"😭 Wait for the opponent to make a decision... 😭 ",
+            "buttonFinishGame": "End game ",
+            "buttonResetGame": "Restart game "
+        }
+    },
+    "login": {
+        "h1": "Login",
+        "input": {
+            "labelUsername": "Username",
+            "labelPassword": "Password",
+            "helpMessage": "This field must be at least 5 characters"
+        },
+        "createAccount": "You do not have an account ?",
+        "buttonLogin": "Log in",
+        "recoverPassword": "Did you forget your password ?"
+    },
+    "record": {
+        "h1": "User register",
+        "input": {
+            "helpMessage": "This field must be at least 5 characters",
+            "labelName": "Name",
+            "labelLastName": "Lastname",
+            "labelUsername": "Username",
+            "labelPassword": "Password",
+            "labelEmail": "Email"
+        },
+        "buttonCreateAccount": "Create user"
+    },
+    "resetPassword": {
+        "h1": "Restore password",
+        "input": {
+            "labelEmail": "Email",
+            "helpMessage": "This field must be at least 5 characters"
+        },
+        "buttonResetPassword": "Reset password"
+    },
+    "changePassword": {
+        "h1": "Reset password",
+        "input": {
+            "labelPassword": "Password",
+            "labelConfirmPassword": "Confirm password",
+            "helpMessage": "This field must be at least 5 characters"
+        },
+        "buttonResetPassword": "Change password"
+    },
+    "dashBoard": {
+        "aside": {
+            "searchGame": "Search game",
+            "profile": "Profile",
+            "register": "Game log",
+            "request": "Requests",
+            "logout": "Sign off"
+        }
+    },
+    "searchGame": {
+        "h1": "Find someone to play with",
+        "input": {
+            "labelSearchGame": "Search game",
+            "helpMessageSearchGame": "Enter username to search for the player"
+        }
+    },
+    "editProfile": {
+        "h1": "Edit profile",
+        "input": {
+            "labelName": "Name",
+            "labelLastName": "Lastname",
+            "labelUsername": "Username",
+            "labelEmail": "Email",
+            "labelConfirmPassword": "Confirm password",
+            "helpMessage": "This field must be at least 5 characters"
+        },
+        "buttonEditProfile": "Edit profile",
+        "buttonDeleteProfile": "Delete profile"
+    },
+    "gameLog": {
+        "h1": "Game log",
+        "card": {
+            "title": "Game with {{username}}",
+            "name": "Name:",
+            "lastname": "Lastname:",
+            "characterRival": "Rival character:",
+            "requestRival": "Request to play with the rival:",
+            "stateOfGame": "State of play:",
+            "turn": "Player turn:",
+            "waitingAnswer": "Waiting answer...",
+            "buttonPlay": "Play"
+        }
+    },
+    "request": {
+        "h1": "Requests",
+        "note": "Note: once the request is accepted, go to the Game Log",
+        "card": {
+            "title": "{{user_from}} has invited you to play",
+            "character": "Character: {{character}}",
+            "stateOfRequest": "State: {{request}}"
+        },
+        "buttonAceppt": "Accept",
+        "buttonReject": "Decline"
+    },
+    "game": {
+        "buttonReturnDashboard": "Return to DashBoard",
+        "currentPlayer": "Your character is:"
+    },
+    "userNotFoundOnline": "😭 No logged in users found 😭",
+    "userNotFoundOffline": "😭 No Disconnected Players Found 😭",
+    "gameNotFound": "😭 No registered games found 😭",
+    "requestNotFound": "😭 No game requests found 😭",
+    "loader": "Loading...",
+    "footer": "🔒 © Copyright by Victor Bermudez 2024 🔒"
+}
