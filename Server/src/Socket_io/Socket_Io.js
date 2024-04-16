@@ -11,7 +11,7 @@ import jwt from 'jsonwebtoken'
 export const app = express()
 export const server = createServer(app)
 const io = new Server(server, {
-  cors: { origin: '*' },
+  cors: { origin: 'https://tic-tac-toe-psi-jet.vercel.app/' },
   connectionStateRecovery: {
     maxDisconnectionDuration: 2 * 60 * 1000,
     skipMiddlewares: true
