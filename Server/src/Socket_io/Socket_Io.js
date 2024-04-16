@@ -12,7 +12,7 @@ export const app = express()
 export const server = createServer(app)
 const io = new Server(server, {
   cors: {
-    origin: 'https://tic-tac-toe-psi-jet.vercel.app/',
+    origin: '*',
     methods: ['GET', 'POST'],
     credentials: true
   },
