@@ -2,7 +2,7 @@ import io from 'socket.io-client'
 let socket
 
 export const initiateSocket = (user, cb) => {
-    socket = io('/socket.io/',{
+    socket = io('https://tic-tac-toe-rpl1.onrender.com', {
         auth: {
             serverOffset: 0,
             isLogged: true,
