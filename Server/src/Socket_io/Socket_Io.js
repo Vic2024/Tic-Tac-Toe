@@ -14,7 +14,6 @@ const io = new Server(server, {
   cors: {
     origin: 'https://tic-tac-toe-psi-jet.vercel.app/',
     methods: ['GET', 'POST'],
-    allowedHeaders: ['my-custom-header'],
     credentials: true
   },
   connectionStateRecovery: {

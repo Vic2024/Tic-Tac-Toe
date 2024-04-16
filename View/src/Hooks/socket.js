@@ -7,7 +7,8 @@ export const initiateSocket = (user, cb) => {
             serverOffset: 0,
             isLogged: true,
             ...user,
-        }
+        },
+        withCredentials: true
     })
     console.log('conectando socket')
     if (!socket) return true
