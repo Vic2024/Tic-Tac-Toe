@@ -9,7 +9,9 @@ export default defineConfig({
       '/api': 'https://tic-tac-toe-rpl1.onrender.com',
       '/socket.io/': {
         target: 'https://tic-tac-toe-rpl1.onrender.com',
-        ws: true
+        changeOrigin: true,
+        secure: false,
+        ws: true,
       },
     }
   }
