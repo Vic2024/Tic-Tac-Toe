@@ -9,7 +9,7 @@ import Loader from "../Components/Loader"
 import { options } from "../Hooks/EditProfile/Options"
 import { useAuth } from "../Context/AuthContext"
 import Edit from "../Icons/Edit"
-import Delete from "../Icons/Delete"
+/* import Delete from "../Icons/Delete" */
 import { useNavigate } from 'react-router-dom'
 import { useTranslation } from "react-i18next"
 import { useState, useEffect } from "react"
@@ -73,12 +73,12 @@ export default function EditProfile() {
                             {t("editProfile.buttonEditProfile")}
                         </span> <Edit />
                     </Button>
-                    <Button id='delete' dashboard type='submit'>
+                    {/* <Button id='delete' dashboard type='submit'>
                         <span className="phone:hidden">
                             {t("editProfile.buttonDeleteProfile")}
                         </span>
                         <Delete />
-                    </Button>
+                    </Button> */}
                 </div>
             </ContainerInputs>
             <Message type='warning' message={res.error.message[lang]} />

@@ -9,7 +9,7 @@ export const initiateSocket = (user, cb) => {
             ...user,
         },
     })
-    console.log('conectando socket')
+    /* console.log('conectando socket') */
     if (!socket) return true
     socket.on('init', users => {
         console.log('Recibiendo usuarios online y offline')
@@ -18,14 +18,14 @@ export const initiateSocket = (user, cb) => {
 }
 
 export const disconnectSocket = () => {
-    console.log('Desconectando Socket')
+   /*  console.log('Desconectando Socket') */
     if (socket) socket.disconnect()
 }
 
 export const notification = (cb) => {
     if (!socket) return (true)
     socket.on('notification', users => {
-        console.log('Evento Websocket notificado')
+       /*  console.log('Evento Websocket notificado') */
         return cb(null, users)
     })
 }
@@ -33,7 +33,7 @@ export const notification = (cb) => {
 export const getGames = (cb) => {
     if (!socket) return (true)
     socket.on('games', users => {
-        console.log('Evento Websocket obteniendo partidas')
+        /* console.log('Evento Websocket obteniendo partidas') */
         return cb(null, users)
     })
 }
@@ -41,7 +41,7 @@ export const getGames = (cb) => {
 export const getSavedGame = cb => {
     if (!socket) return (true)
     socket.on('getSavedGame', savedGame => {
-        console.log('Evento Obteiendo Juego Guardado')
+        /* console.log('Evento Obteiendo Juego Guardado') */
         return cb(null, savedGame)
     })
 }
@@ -53,14 +53,14 @@ export const getSavedGameOff = () => {
 export const getWinner = cb => {
     if (!socket) return (true)
     socket.on('getWinner', getWinner => {
-        console.log('Evento Socket Obteniendo Ganador')
+        /* console.log('Evento Socket Obteniendo Ganador') */
         return cb(null, getWinner)
     })
 }
 export const isLogin = cb => {
     if (!socket) return (true)
     socket.on('Logout', isLogin => {
-        console.log('Evento Socket Cerrando Sesion')
+       /*  console.log('Evento Socket Cerrando Sesion') */
         return cb(null, isLogin)
     })
 }
@@ -127,7 +127,7 @@ export const endGame = ({ idGame, rival }) => {
 export const getEndGame = cb => {
     if (!socket) return (true)
     socket.on('endGame', data => {
-        console.log('Evento Socket Juego Finalizado')
+        /* console.log('Evento Socket Juego Finalizado') */
         return cb(null, data)
     })
 }
@@ -139,7 +139,7 @@ export const getEndGameOff = () => {
 export const getMessages = cb => {
     if (!socket) return (true)
     socket.on('messages', message => {
-        console.log('Evento Socket Recibiendo Mensaje')
+        /* console.log('Evento Socket Recibiendo Mensaje') */
         return cb(null, message)
     })
 }

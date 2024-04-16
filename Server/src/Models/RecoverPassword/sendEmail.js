@@ -17,7 +17,7 @@ const sendEmail = async ({ input }) => {
     from: 'tic.tac.toe.game9@gmail.com',
     to: `${input.email}`,
     subject: 'Link to recover the TIC TAC TOE account',
-    html: `<a href="https://q7txpfw0-5000.use2.devtunnels.ms/reset_password/${input.id}/${input.token}">Change Password</a>`
+    html: `<a href="https://tic-tac-toe-psi-jet.vercel.app/reset_password/${input.id}/${input.token}">Change Password</a>`
   }
 
   const result = await transporte.sendMail(mailOptions)
