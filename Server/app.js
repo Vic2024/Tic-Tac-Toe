@@ -19,7 +19,11 @@ dotenv.config()
 
 const PORT = process.env.PORT ?? 5000
 app.disable('x-powered-by')
-app.use(cors({ origin: 'https://tic-tac-toe-psi-jet.vercel.app/' }))
+app.use(cors({
+  origin: 'https://tic-tac-toe-psi-jet.vercel.app/',
+  credentials: true, // access-control-allow-credentials:true
+  optionSuccessStatus: 200
+}))
 app.use(json())
 app.use('/api/user', userRouter)
 app.use('/api/players', PlayersRouter)
