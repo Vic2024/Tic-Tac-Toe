@@ -21,7 +21,6 @@ export default function ResetPassword() {
     async function handleSubmit(event) {
         event.preventDefault()
         const result = await handleMethod(event)
-        console.log(result)
         if (result.isSucces === true) setTimeout(() => {
             navigate('/login')
         }, 1000)

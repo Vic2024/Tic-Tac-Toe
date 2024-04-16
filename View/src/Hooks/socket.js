@@ -12,7 +12,7 @@ export const initiateSocket = (user, cb) => {
     /* console.log('conectando socket') */
     if (!socket) return true
     socket.on('init', users => {
-        console.log('Recibiendo usuarios online y offline')
+       /*  console.log('Recibiendo usuarios online y offline') */
         return cb(null, users)
     })
 }
