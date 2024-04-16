@@ -12,9 +12,7 @@ export const app = express()
 export const server = createServer(app)
 const io = new Server(server, {
   cors: {
-    origin: '*',
-    methods: ['GET', 'POST'],
-    credentials: true
+    origin: '*'
   },
   connectionStateRecovery: {
     maxDisconnectionDuration: 2 * 60 * 1000,

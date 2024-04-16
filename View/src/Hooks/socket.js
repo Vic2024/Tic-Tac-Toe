@@ -8,7 +8,6 @@ export const initiateSocket = (user, cb) => {
             isLogged: true,
             ...user,
         },
-        withCredentials: true
     })
     console.log('conectando socket')
     if (!socket) return true
