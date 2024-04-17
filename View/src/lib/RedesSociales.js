@@ -8,7 +8,7 @@ const SocialNetworks = [
     { path: 'https://www.instagram.com/vmbermudez/', icon: Instagram },
     { path: 'https://www.linkedin.com/in/victor-bermudez-3760782a8/', icon: Linkedin },
     { path: 'https://github.com/Vic2024', icon: GitHub },
-    { path: '/', icon: Portafolio },
+    { path: 'https://portafolio-victor-bermudez.vercel.app/', icon: Portafolio },
 ]
 
 export default SocialNetworks
