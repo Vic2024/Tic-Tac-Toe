@@ -5,7 +5,7 @@ import Portafolio from "../Icons/Portafolio";
 import Linkedin from "../Icons/Linkedin";
 const SocialNetworks = [
     { path: 'https://twitter.com/vicbruiz', icon: Twitter },
-    { path: 'https://www.instagram.com/vmbermudez/', icon: Instagram },
+    { path: 'https://www.instagram.com/vicdev2023/', icon: Instagram },
     { path: 'https://www.linkedin.com/in/victor-bermudez-3760782a8/', icon: Linkedin },
     { path: 'https://github.com/Vic2024', icon: GitHub },
     { path: 'https://portafolio-victor-bermudez.vercel.app/', icon: Portafolio },
